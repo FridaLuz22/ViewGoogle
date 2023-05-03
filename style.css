@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  font-family: arial,sans-serif;
+  color: #202124;
+}
 .Container-Top{
   display: flex;
   align-items: center;
@@ -11,7 +14,6 @@
   height: 60px;
   min-width: auto;
   font-size:13px ;
-  font-family: arial,sans-serif;
 }
 .content-1{
   flex-grow: 1;
@@ -177,7 +179,6 @@
   border: none;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
-  font-family: arial,sans-serif;
   line-height: 27px;
   cursor: pointer;
 }
@@ -189,7 +190,6 @@
 .span{
   display: flex;
   justify-content: center;
-  font-family: arial,sans-serif;
   font-size: 13px;
 }
 
@@ -205,5 +205,42 @@
 }
 
 .span span a:hover{
+  text-decoration: underline;
+}
+
+.Footer{
+  width: 100%;
+  background: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.Country{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  color: #70757a;
+  font-size: 15px;
+}
+
+.Information{
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Tools-Google{
+  display: flex;
+  justify-content: space-between;
+}
+.Tools-Google a{
+  padding: 15px;
+  color: #70757a;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.Tools-Google a:hover{
   text-decoration: underline;
 }
