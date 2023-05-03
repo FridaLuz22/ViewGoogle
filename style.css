@@ -1,3 +1,5 @@
+@import url("./style_appsgoogle.css");
+
 *{
   margin: 0;
   padding: 0;
@@ -45,6 +47,7 @@ body{
   font-size: 13px;
   text-decoration: none;
   color: rgba(0,0,0,.87);
+  cursor: pointer;
 }
 
 .gmail-imagenes a:hover{
@@ -67,6 +70,7 @@ body{
   justify-content: center;
   text-decoration: none;
   outline: none;
+  cursor: pointer;
 }
 .ContentProfile-Appgogle a svg{
   outline: none;
@@ -75,7 +79,7 @@ body{
   fill: currentColor;
 }
 
-.ContentProfile-Appgogle a:hover:focus{
+.ContentProfile-Appgogle a:hover{
   opacity: 1;
   background-color: rgba(60,64,67,.08);
 }
@@ -244,3 +248,4 @@ body{
 .Tools-Google a:hover{
   text-decoration: underline;
 }
+

@@ -1,0 +1,67 @@
+.Google-Apps{
+  position: absolute;
+  margin-top: 60px;
+  margin-right: 10px;
+}
+.Google-Apps div{
+  padding: 8px;
+  width: 300px;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
+  border-radius: 8px;
+}
+
+.List{
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+.List li{
+  display: inline-block;
+  margin: 4px;
+  height: 84px;
+  list-style-type: none;
+  padding: 6px;
+  position: relative;
+  transition: transform .2s cubic-bezier(.333,0,0,1);
+  vertical-align: top;
+  width: 84px;
+}
+.List li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 0;
+  outline: none;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 80px;
+  height: 80px ;
+}
+.List li a:hover{
+  background-color: rgb(232, 240, 254);
+  border-radius: 8px;
+  border: none;
+}
+
+.List li a figure{
+  height: 62px;
+  transform: scale(.8333333333);
+}
+
+.List li a figure img{
+  width: 45px;
+  height: 45px;
+}
+
+.List li a figure figcaption{
+  font-size: 16px;
+  color: rgb(32,33,36);
+  margin-top: 4px; 
+}
+.visibility{
+  visibility:hidden;
+}
