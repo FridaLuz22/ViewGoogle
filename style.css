@@ -10,8 +10,8 @@
   padding: 6px;
   height: 60px;
   min-width: auto;
-  font-size:14px ;
-  font-family: arial,sans-serif;;
+  font-size:13px ;
+  font-family: arial,sans-serif;
 }
 .content-1{
   flex-grow: 1;
@@ -27,19 +27,22 @@
   display: flex;
   align-items: center;
   float: right;
-  gap: 5px;
+  gap: 8px; 
   padding-left: 32px;
-  padding-right: 4px;
+  padding-right: 8px;
 }
 .content .gmail-imagenes{
+  padding-right: 11px;
   display: flex;
-  gap: 20px;
   align-items: center;
+  gap: 15px;
+
 }
 
 .gmail-imagenes a{
+  font-size: 13px;
   text-decoration: none;
-  color: black;
+  color: rgba(0,0,0,.87);
 }
 
 .gmail-imagenes a:hover{
@@ -60,12 +63,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
+  text-decoration: none;
+  outline: none;
+}
+.ContentProfile-Appgogle a svg{
+  outline: none;
+  color: #5f6368;
+  opacity: 1;
+  fill: currentColor;
 }
 
-.ContentProfile-Appgogle a:hover{
-  text-decoration: none;
- opacity: 1;
+.ContentProfile-Appgogle a:hover:focus{
+  opacity: 1;
+  background-color: rgba(60,64,67,.08);
 }
 .ContentProfile-Appgogle a img{
   border-radius: 50%;
@@ -77,4 +87,123 @@
 .AppGoogle{
   width: 24px;
   height: 24px;
+}
+.Logo-Google{
+  display: flex;
+  justify-content: center;
+}
+
+.Logo-Google img{
+  margin-top: 11px;
+}
+
+.Container-Search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Search{
+  padding: 26px;
+}
+.Search .box-small, .Buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons{
+  width: 40px;
+  padding: 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icons svg{
+  width: 24px;
+  height: 24px;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  max-width: 584px;
+  min-height: 48px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+}
+
+.box:hover{
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.box-small{
+  width:582px ;
+  min-height: 46px;
+}
+.box-small i{
+  padding-right:15px ;
+  font-size: 13px;
+  color:#9aa0a6;
+
+}
+.box-small textarea{
+  width: 440px;
+  line-height: 24px;
+  font-size: 15px;
+  background-color: transparent;
+  resize: none;
+  border: none;
+  outline: none;
+
+}
+
+.Buttons{
+  height: 94px;
+}
+
+.Buttons input{
+  font-size: 14px;
+  margin: 11px 6px;
+  height: 37px;
+  min-width: 55px;
+  padding: 0 16px;
+  border-radius: 4px;
+  color: #3c4043;
+  border: none;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  font-family: arial,sans-serif;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.Buttons input:hover{
+  border: 1.6px solid #d2d5d6;
+}
+
+.span{
+  display: flex;
+  justify-content: center;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+.span span{
+  display: flex;
+  gap: 8.5px;
+  color: #4c4e4e;;
+}
+
+.span span a{
+  text-decoration: none;
+  color: #1a0dab;;
+}
+
+.span span a:hover{
+  text-decoration: underline;
 }
